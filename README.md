@@ -5,3 +5,4 @@ Structure:
 2. Parameter sensitivity analysis in 1D-QBO model, including the thermal dissipation rate of waves $\alpha$ and the Rayleigh damping of the mean flow $\kappa$;
 3. MLPs (containing online test);
 4. FNOs (containing online test);
+5. Final report and the presentation for the defense.
