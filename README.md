@@ -11,5 +11,11 @@ Structure:
 
 # Main results:
 
-## 1. Parameter sensitivity
+## 1. Observation
+
+## 2. Model Architecture
+
+## 3. Online Test
+
+## 3. Model Complexity
 
