@@ -1,5 +1,5 @@
 # QBO-FNOs
-We tested the performances of FNOs in parameterizing the gravity wave forcing in 1D-QBO model. **The results show that both FNOs and MLPs can conduct precise predictions in offline tests, but only FNOs can generate stable numerical simulation online. Moreover, the FNOs are robust when edding noise to the training data, but fail to learn the wave forcing with a wide wave spectrum.**
+We tested the performances of FNOs in parameterizing the gravity wave forcing in 1D-QBO model. **The results show that both FNOs and MLPs perform well in offline tests, but only FNOs can generate stable numerical simulation online. Moreover, the FNOs are robust when edding noise to the training data, but struggling to learn the wave forcing with a wide wave spectrum.**
 
 To run this notebook, you should first download the zip from [https://zenodo.org/records/14498620](https://zenodo.org/records/14498716), which contains the code for the 1D-QBO model, both deterministic and stochastic form. The project was mainly based on the paper 'On the Importance of Learning Non-Local Dynamics for Stable Data-Driven Climate Modeling: A 1D Gravity Wave-QBO Testbed' by Hamid A. Pahlavan et al.
 
