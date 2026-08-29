@@ -1,2 +1,2 @@
 # QBO-FNOs
-We tested the performances of FNOs in parameterizing the gravity wave forcing in 1D-QBO model. To run this notebook, you should first download the package from https://zenodo.org/records/14498620, where
+We tested the performances of FNOs in parameterizing the gravity wave forcing in 1D-QBO model. To run this notebook, you should first download the zip from [https://zenodo.org/records/14498620](https://zenodo.org/records/14498716), where contains the code for the 1D-QBO model, both deterministic and stochastic form. The project was mainly based on the paper 'On the Importance of Learning Non-Local Dynamics for Stable Data-Driven Climate Modeling: A 1D Gravity Wave-QBO Testbed'. 
