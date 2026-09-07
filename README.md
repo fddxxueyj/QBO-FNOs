@@ -6,7 +6,7 @@ To run this notebook, you should first download the zip from [https://zenodo.org
 Structure:
 1. `adsolver_new.py`: a new solver for 1D-QBO model based on the code by H. A. Pahlavan, necessary for running the following code;
 2. `critical_layer.ipynb`: Physical understanding for 1D-QBO model, mainly concerning critical layer;
-3. `param_kappa.ipynb` and `param_alpha.ipynb`: Parameter sensitivity analysis in 1D-QBO model, including the thermal dissipation rate of waves $\alpha$ and the vertical diffusion of the mean flow $\kappa$;
+3. `param_kappa.ipynb` and `param_alpha.ipynb`: Parameter sensitivity analysis in 1D-QBO model, including the dissipation rate of waves $\alpha$ and the vertical diffusion of the mean flow $\kappa$;
 4. `MLP.ipynb`: MLPs (containing online test);
 5. `FNO.ipynb`: FNOs (containing online test);
 6. `report.pdf`: Final report.
