@@ -33,7 +33,7 @@ $$
     \mathrm{GWF}(\bar u,z) =  - \frac{\rho_L}{\rho_0} \sum_n \frac{\partial F_n}{\partial z}; \ F_n = F_L \exp\{ - \int _{z_L} ^z \frac{N\alpha}{k_n[\bar u(z) - c_n]^2} \mathrm{d}z'\}.
 $$
 
-We chose two parameters in this model, the dissipation rate of waves $\alpha$ and the diffusion of th emean flow $\kappa$, to test the sensitivity. 
+We chose two parameters in this model, the dissipation rate of waves $\alpha$ and the diffusion of the viscosity of the mean flow $\kappa$, to test the sensitivity. 
 
 <p align="center">
   <img src="https://github.com/fddxxueyj/QBO-FNOs/blob/main/results/alpha_period.png" width="48%" />
