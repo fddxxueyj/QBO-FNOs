@@ -20,13 +20,17 @@ Structure:
 
 Monthly zonal mean wind over Singapore and its FFT spectrum at 35.5 km. 
 
-## 2. Model Architecture
+## 2. 1D-QBO Model
+
+
+
+## 3. Model Architecture
 
 ![alt](https://github.com/fddxxueyj/QBO-FNOs/blob/main/results/model_arch.png)
 
 The neural operator takes the zonal wind $u_t$ at time t as input and predicts the corresponding Gravity Wave Forcing (GWF) $f_t$. First, the input is projected into a higher-dimensional feature space through a linear embedding layer. The tensor in feature space is then processed by a series of Fourier layers, each followed by an activation function. The output of the last Fourier layer is mapped to the target dimension through a fully connected layer.
 
-## 3. Online Test
+## 4. Online Test
 
 ![alt](https://github.com/fddxxueyj/QBO-FNOs/blob/main/results/figure3.png)
 
@@ -36,7 +40,7 @@ In this study, two different approaches are adopted to incorporate noise into th
 
 Second, stochasticity is introduced directly into the gravity-wave forcing by perturbing the phase speeds of the waves, which is more similar to the real stratosphere (Holton and Lindzen [1972]). The numerical model is then driven by this stochastic forcing to generate training data. Instead of focusing solely on the impact of noise on the training process from a ML perspective, this experiment aims to assess whether the models can capture the underlying physical mechanisms when stochasticity is introduced to the governing dynamics. In this circumstance， both the FNO and MLP fail to reproduce the exact oscillation period. Nevertheless, the FNO yields a period that is substantially closer to the reference.
 
-## 4. Model Complexity
+## 5. Model Complexity
 
 ![alt](https://github.com/fddxxueyj/QBO-FNOs/blob/main/results/figure5.png)
 
