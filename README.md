@@ -21,6 +21,19 @@ Structure:
 Monthly zonal mean wind over Singapore and its FFT spectrum at 35.5 km. 
 
 ## 2. 1D-QBO Model
+We employed the 1D-QBO model introduced by Alan Plumb in 1977,
+
+$$
+    \frac{\partial \bar u}{\partial t} + w\frac{\partial \bar u}{\partial z} - \kappa \frac{\partial^2 \bar u}{\partial z^2} = \mathrm{GWF}(\bar u,z),
+$$
+
+where,
+
+$$
+    \mathrm{GWF}(\bar u,z) =  - \frac{\rho_L}{\rho_0} \sum_n \frac{\partial F_n}{\partial z}; \ F_n = F_L \exp\{ - \int _{z_L} ^z \frac{N\alpha}{k_n[\bar u(z) - c_n]^2} \mathrm{d}z'\}.
+$$
+
+We chose two parameters in this model, the dissipation rate of waves $\alpha$ and the diffusion of th emean flow $\kappa$, to test the sensitivity. 
 
 
 
