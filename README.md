@@ -35,6 +35,11 @@ $$
 
 We chose two parameters in this model, the dissipation rate of waves $\alpha$ and the diffusion of th emean flow $\kappa$, to test the sensitivity. 
 
+<p align="center">
+  <img src="https://github.com/fddxxueyj/QBO-FNOs/blob/main/results/alpha_period.png" width="48%" />
+  <img src="https://github.com/fddxxueyj/QBO-FNOs/blob/main/results/kappa_period.png" width="48%" />
+</p>
+
 
 
 ## 3. Model Architecture
